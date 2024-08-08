@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 11;
+}
+
+.div2 {
+  grid-area: 2 / 1 / 11 / 8;
+}
+
+.div3 {
+  grid-area: 2 / 8 / 11 / 11;
+}
+
+
+
+header {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header div h1 {
+  text-align: center
+}
+
+.seccion {
+  width: 75%;
+  margin: 20px auto;
+  border-radius: 5px;
+  padding: 5px 0;
+}
+
+.subdiv {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bodydiv {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.divimg {
+  width: 100%;
+}
+
+.divimg img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.divimg video {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.divimg iframe {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.divg {
+  padding-top: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: px;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 2 / 11;
+  }
+
+  .div2 {
+    grid-area: 2 / 1 / 11 / 11;
+  }
+
+  .div3 {
+    display: none;
+  }
+  .seccion {
+    width: 90%;
+  }
+}
