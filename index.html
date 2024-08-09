@@ -1,65 +1,228 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-  <main class="parent">
-    <header class="div1">
-      <div>
-        <h1>Guillo's Blog</h1>
-      </div>
-    </header>
-    <div class="div2">
-      <section class="seccion divg">
-        <div class="subdiv">
-          <div class="bodydiv divwithimg">
-            <div class="divimg">
-              <img src="https://http.cat/images/100.jpg">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guillo's Blog</title>
+    <link rel="stylesheet" href="./src/css/style.css" />
+  </head>
+  <body>
+    <div class="parent">
+      <main class="div1">
+        <div>
+          <h2 class="hborder">Priority List</h2>
+          <div>
+            <ul class="unlist">
+              <li>
+                <p>Work on the final Assigment for Communication</p>
+              </li>
+              <li>
+                <p>Apply for Scholarships</p>
+              </li>
+              <li>
+                <p>Do voulenteering Online Training Program </p>
+              </li>
+            </ul>
+          </div>
+          <hr style="height: 5px; background-color: black;">
+        </div>
+        <div>
+          <div class="divnavlist">
+            <ul class="navlist">
+              <li class="selected">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2"/>
+                  </svg>
+                  <p class="orderp">Overview</p>
+                </div>
+              </li>
+              <li class="unselected">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-ubuntu" viewBox="0 0 16 16">
+                    <path d="M2.273 9.53a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.547Zm9.467-4.984a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546M7.4 13.108a5.54 5.54 0 0 1-3.775-2.88 3.27 3.27 0 0 1-1.944.24 7.4 7.4 0 0 0 5.328 4.465c.53.113 1.072.169 1.614.166a3.25 3.25 0 0 1-.666-1.9 6 6 0 0 1-.557-.091m3.828 2.285a2.273 2.273 0 1 0 0-4.546 2.273 2.273 0 0 0 0 4.546m3.163-3.108a7.44 7.44 0 0 0 .373-8.726 3.3 3.3 0 0 1-1.278 1.498 5.57 5.57 0 0 1-.183 5.535 3.26 3.26 0 0 1 1.088 1.693M2.098 3.998a3.3 3.3 0 0 1 1.897.486 5.54 5.54 0 0 1 4.464-2.388c.037-.67.277-1.313.69-1.843a7.47 7.47 0 0 0-7.051 3.745"/>
+                  </svg>
+                  <p class="orderp">Hacking</p>
+                </div>
+              </li>
+              <li class="unselected">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                    <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                  </svg>
+                  <p class="orderp">Philosophy</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <div class="order">
+              <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-cloud-lightning-rain" viewBox="0 0 16 16">
+                <path d="M2.658 11.026a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m-7.5 1.5a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m9.5 0a.5.5 0 0 1 .316.632l-.5 1.5a.5.5 0 1 1-.948-.316l.5-1.5a.5.5 0 0 1 .632-.316m-.753-8.499a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 10H13a3 3 0 0 0 .405-5.973M8.5 1a4 4 0 0 1 3.976 3.555.5.5 0 0 0 .5.445H13a2 2 0 0 1 0 4H3.5a2.5 2.5 0 1 1 .605-4.926.5.5 0 0 0 .596-.329A4 4 0 0 1 8.5 1M7.053 11.276A.5.5 0 0 1 7.5 11h1a.5.5 0 0 1 .474.658l-.28.842H9.5a.5.5 0 0 1 .39.812l-2 2.5a.5.5 0 0 1-.875-.433L7.36 14H6.5a.5.5 0 0 1-.447-.724z"/>
+              </svg>
+              <h2>Articles</h2>
             </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellat non laudantium nam iure tenetur officiis error
-              eligendi quis quisquam quo. Quod quae perspiciatis fugit
-              voluptates architecto esse porro fugiat doloribus?
-            </p>
+            <div class="divart">
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At quibusdam tempore similique adipisci? Nesciunt doloremque voluptatum aspernatur tenetur molestiae ab, distinctio neque ratione</p>
+                </div>
+              </section>
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Quod esse quo mollitia odit repellat harum minima dolorum repellendus cumque, voluptatibus quia magnam numquam modi alias reprehenderit doloremque delectus dolorem</p>
+                </div>
+              </section>
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Fuga nesciunt perferendis optio natus quod molestias laudantium magni, ipsa aspernatur similique, omnis debitis et minima laborum eum ea libero ab pariatur culpa enim, atque vitae!</p>
+                </div>
+              </section>
+            </div>
+            <div class="divart">
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat, omnis dolorem? Voluptatibus, laborum sapiente. Natus laboriosam in nobis? Animi vel iure laborum odit nam</p>
+                </div>
+              </section>
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Laboriosam odio sit quos saepe, numquam perspiciatis, minus, sunt ipsa ab eum voluptatum recusandae! Earum, est. Voluptas saepe magnam minus doloribus, quo vitae quidem dolor</p>
+                </div>
+              </section>
+              <section class="art">
+                <img src="https://http.cat/images/102.jpg" alt="" class="imgart">
+                <div class="divartp">
+                  <p>Autem corrupti aliquid alias iusto perspiciatis, libero eaque. Nam iusto enim architecto quidem ipsa ut blanditiis. Dicta animi ab corrupti necessitatibus! Ullam, perspiciatis molestiae!</p>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
-      </section>
-      <section class="seccion">
-        <div class="subdiv">
-          <div class="bodydiv">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellat non laudantium nam iure tenetur officiis error
-              eligendi quis quisquam quo. Quod quae perspiciatis fugit
-              voluptates architecto esse porro fugiat doloribus?
-            </p>
+      </main>
+      <aside class="div2">
+        <div class="divleftaside">
+          <a class="weatherwidget-io" href="https://forecast7.com/en/8d75n75d88/monteria/" data-label_1="MONTERÍA" data-label_2="WEATHER" data-days="3" data-theme="pure" >MONTERÍA WEATHER</a>
+<script>
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+</script>
+        </div>
+        <div class="divleftaside">
+          <h2>Coding Week</h2>
+          <p>10w 1d 11h to go</p>
+        </div>
+        <div class="divleftaside">
+          <h2>Exams</h2>
+          <p>3m 3w 2d to go</p>
+        </div>
+        <div>
+          <img class="wishPhoto" src="https://i.pinimg.com/736x/d3/da/0a/d3da0a935923b54ac0be9ad9952c40fe.jpg" alt="Wish">
+        </div>
+      </aside>
+      <aside class="div3">
+        <div>
+          <h2 class="hborder">Esentials</h2>
+          <div>
+            <ul class="unlist">
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-calendar-week" viewBox="0 0 16 16">
+                    <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"/>
+                  </svg>
+                  <p class="orderm">Master Schedule</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                    <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+                    <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+                  </svg>
+                  <p class="orderm">Degree Plan</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                    <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+                  </svg>
+                  <p class="orderm">Classes</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-kanban-fill" viewBox="0 0 16 16">
+                    <path d="M2.5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm5 2h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1m-5 1a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1zm9-1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1"/>
+                  </svg>
+                  <p class="orderm">Career Track</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-trophy-fill" viewBox="0 0 16 16">
+                    <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5q0 .807-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33 33 0 0 1 2.5.5m.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935m10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935"/>
+                  </svg>
+                  <p class="orderm">Goals</p>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
-      </section>
+        <div><img class="goalsPhoto" src="https://i.pinimg.com/564x/3e/dd/b4/3eddb431073c89a8511e02b06bb45299.jpg" alt="Goals"></div>
+        <div>
+          <h3 class="hborder">Personal</h3>
+          <div>
+            <Ul class="unlist">
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-pen-fill" viewBox="0 0 16 16">
+                    <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001"/>
+                  </svg>
+                  <p class="orderm">Book Log</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-journal-code" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708m-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708"/>
+                    <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+                    <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+                  </svg>
+                  <p class="orderm">Journal</p>
+                </div>
+              </li>
+            </Ul>
+          </div>
+          <div>
+            <Ul class="unlist">
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-ui-radios-grid" viewBox="0 0 16 16">
+                    <path d="M3.5 15a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m9-9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0 9a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5M16 3.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-9 9a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m5.5 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7m-9-11a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m0 2a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                  </svg>
+                  <p class="orderm">Grades</p>
+                </div>
+              </li>
+              <li class="schedulelist">
+                <div class="order">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="iconstyle" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                    <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2z"/>
+                    <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0M7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5m-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0"/>
+                  </svg>
+                  <p class="orderm">Notes</p>
+                </div>
+              </li>
+            </Ul>
+          </div>
+        </div>
+      </aside>
     </div>
-    <div class="div3">
-      <section class="seccion">
-        <div class="subdiv">
-          <div class="bodydiv">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repellat non laudantium nam iure tenetur officiis error
-              eligendi quis quisquam quo. Quod quae perspiciatis fugit
-              voluptates architecto esse porro fugiat doloribus?
-            </p>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <script src="script.js"></script>
-</body>
-
-</html>
+  </body>
+</html>   
